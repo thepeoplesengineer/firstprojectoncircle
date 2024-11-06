@@ -15,11 +15,12 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <GamePage />,
+        
       }
     ],
   },
 ]);
-
+console.log('hello')
 const rootElement = document.getElementById('root');
 if (rootElement) {
   ReactDOM.createRoot(rootElement).render(<RouterProvider router={router} />);
